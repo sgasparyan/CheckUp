@@ -1,0 +1,55 @@
+.display {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  /* row-gap: 5%; */
+}
+
+.displayTitle {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 1%;
+  margin-bottom: 4%;
+}
+
+.list, .chart, .askLocation {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+  max-height: 500px;
+}
+
+.askLocation {
+  padding: 10px;
+  line-height: 60px;
+}
+
+.list {
+  overflow-y: scroll;
+}
+
+.listItem, .listItemClicked {
+  text-align: center;
+  margin: 0;
+  padding: 2%;
+  font-weight: 300;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.listItemClicked {
+  font-weight: 500;
+}
+
+.listItemClicked:hover {
+  cursor: pointer;
+  font-weight: 400;
+}
